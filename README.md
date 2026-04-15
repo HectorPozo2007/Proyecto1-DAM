@@ -1,14 +1,12 @@
-# 🛠️ FixIt - Red Social de Reparaciones y Bricolaje
+# 🛠️ TinkerNet - Red Social de Reparaciones y Bricolaje
 
-> Proyecto final para 1º de DAM (Desarrollo de Aplicaciones Multiplataforma).
-
-![Banner del proyecto](URL_A_UNA_IMAGEN_DE_TU_PROYECTO_O_LOGO) *(Opcional: Si tienes un logo o captura de pantalla, ponla aquí)*
+> Proyecto final para 1º de DAM .
 
 ## 📖 Sobre el Proyecto
 
-**FixIt** (o el nombre que le hayas puesto) es una red social diseñada para empoderar a los usuarios a reparar sus propios objetos. En un mundo donde tendemos a tirar las cosas cuando se estropean, esta plataforma busca crear una comunidad donde cualquiera puede:
+**TinkerNet** es una red social diseñada para empoderar a los usuarios a reparar sus propios objetos. En un mundo donde tendemos a tirar las cosas cuando se estropean, esta plataforma busca crear una comunidad donde cualquiera puede:
 
-* **Publicar** guías paso a paso sobre cómo han reparado sus aparatos (electrónica, automoción, hogar, etc.).
+* **Publicar** guías paso a paso sobre cómo han reparado sus aparatos (informática, electrónica, automoción, hogar, etc.).
 * **Preguntar** dudas sobre problemas técnicos específicos.
 * **Compartir** soluciones, trucos y herramientas recomendadas en diversos ámbitos.
 
@@ -28,13 +26,10 @@ El objetivo es fomentar la economía circular, el ahorro y el aprendizaje colabo
 
 ## 🛠️ Tecnologías Utilizadas
 
-*(Ajusta esta lista según lo que hayas usado en tu proyecto)*
-
 * **Base de Datos:** MySQL
-* **Modelado:** MySQL Workbench (Esquema EER)
-* **Lenguaje Principal:** Java / Python / C# *(Pon el que uses)*
-* **Entorno de Desarrollo:** Eclipse / IntelliJ / VS Code *(Pon el que uses)*
-* **Otras Tecnologías:** *(Añade si usas HTML/CSS, algún framework, etc.)*
+* **Modelado:** MySQL Workbench
+* **Lenguaje Principal:** Java
+* **Entorno de Desarrollo:** IntelliJ IDEA / Eclipse
 
 ---
 
@@ -46,16 +41,12 @@ El núcleo del proyecto es una base de datos relacional robusta. Aquí tienes un
 * `Post_problema`: Registra los problemas que los usuarios publican.
 * `Solucion`: Almacena las guías o respuestas a los problemas.
 * `Categoría`: Clasifica los posts y soluciones.
-* `Rol` y `Permisos`: Gestionan la seguridad y el acceso a las funciones de la app.
-
-*(Opcional: Puedes añadir aquí la imagen de tu diagrama EER de MySQL Workbench)*
+* `Rol` y `Permisos`: Gestionan la seguridad y el acceso a las funciones de la aplicación.
 
 ---
 
 ## ⚙️ Instalación y Uso
 
-*(Explica brevemente cómo alguien podría descargar y probar tu proyecto. Ejemplo:)*
-
-1. Clona el repositorio:
+1. Clona el repositorio en tu máquina local:
    ```bash
-   git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
+   git clone [https://github.com/tu-usuario/TinkerNet.git](https://github.com/tu-usuario/TinkerNet.git)

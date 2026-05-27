@@ -8,480 +8,189 @@
 
   <link rel="stylesheet" href="style.css">
 
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
 
-  <!-- ========================= -->
-  <!-- HEADER -->
-  <!-- ========================= -->
+<!-- ================= HERO ================= -->
 
-  <header class="header">
+<header class="hero">
 
-    <nav class="navbar">
+  <nav class="nav">
+    <h1 class="logo">Tinker<span>Net</span></h1>
 
-      <h1 class="logo">
-        Tinker<span>Net</span>
-      </h1>
+    <a class="github-link" href="https://github.com/HectorPozo2007" target="_blank">
+      <i class="fa-brands fa-github"></i> GitHub
+    </a>
+  </nav>
 
-      <ul class="nav-links">
+  <div class="hero-content">
 
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#sobre">Proyecto</a></li>
-        <li><a href="#funcionamiento">Funcionamiento</a></li>
-        <li><a href="#tecnologias">Tecnologías</a></li>
-        <li><a href="#github">GitHub</a></li>
+    <p class="tag">Proyecto Final · 1º DAM</p>
 
-      </ul>
-
-      <div class="menu-btn">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-
-    </nav>
-
-  </header>
-
-  <!-- ========================= -->
-  <!-- HERO -->
-  <!-- ========================= -->
-
-  <section class="hero" id="inicio">
-
-    <div class="hero-text">
-
-      <p class="tag">
-        Proyecto Final · 1º DAM
-      </p>
-
-      <h2>
-        TinkerNet
-      </h2>
-
-      <p class="description">
-
-        Una red social enfocada en reparaciones,
-        bricolaje y aprendizaje colaborativo.
-
-        Diseñada para ayudar a los usuarios
-        a compartir soluciones, publicar problemas
-        técnicos y fomentar la economía circular.
-
-      </p>
-
-      <div class="hero-buttons">
-
-        <a
-          href="https://github.com/HectorPozo2007/Proyecto1-DAM"
-          target="_blank"
-          class="btn primary"
-        >
-          Ver repositorio
-        </a>
-
-        <a
-          href="https://hectorpozo2007.github.io"
-          target="_blank"
-          class="btn secondary"
-        >
-          Mi portfolio
-        </a>
-
-      </div>
-
-    </div>
-
-    <!-- TERMINAL -->
-
-    <div class="hero-image">
-
-      <div class="code-window">
-
-        <div class="window-top">
-
-          <span class="dot red"></span>
-          <span class="dot yellow"></span>
-          <span class="dot green"></span>
-
-        </div>
-
-        <div class="code-content">
-
-          <p>
-            <span class="blue">CREATE TABLE</span>
-            Usuario
-          </p>
-
-          <p>{</p>
-
-          <p class="indent">
-            id_usuario INT,
-          </p>
-
-          <p class="indent">
-            nombre VARCHAR(100)
-          </p>
-
-          <p>}</p>
-
-          <br>
-
-          <p>
-            <span class="green">JAVA</span>
-            + MySQL + AL
-          </p>
-
-          <br>
-
-          <p>
-            // Comunidad de reparaciones
-          </p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- ========================= -->
-  <!-- SOBRE EL PROYECTO -->
-  <!-- ========================= -->
-
-  <section class="about" id="sobre">
-
-    <h2 class="section-title">
-      ¿Qué es TinkerNet?
-    </h2>
-
-    <div class="about-container">
-
-      <div class="about-card">
-
-        <i class="fa-solid fa-screwdriver-wrench"></i>
-
-        <h3>Reparaciones</h3>
-
-        <p>
-          Los usuarios pueden compartir
-          guías paso a paso para reparar
-          objetos y dispositivos.
-        </p>
-
-      </div>
-
-      <div class="about-card">
-
-        <i class="fa-solid fa-users"></i>
-
-        <h3>Comunidad</h3>
-
-        <p>
-          La plataforma permite ayudar
-          a otros usuarios mediante
-          comentarios y soluciones.
-        </p>
-
-      </div>
-
-      <div class="about-card">
-
-        <i class="fa-solid fa-recycle"></i>
-
-        <h3>Economía circular</h3>
-
-        <p>
-          El objetivo es reducir residuos,
-          reutilizar objetos y fomentar
-          el aprendizaje colaborativo.
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- ========================= -->
-  <!-- FUNCIONAMIENTO -->
-  <!-- ========================= -->
-
-  <section class="projects" id="funcionamiento">
-
-    <h2 class="section-title">
-      ¿Cómo funciona?
-    </h2>
-
-    <div class="projects-container">
-
-      <div class="project-card">
-
-        <div class="project-icon">
-          <i class="fa-solid fa-user"></i>
-        </div>
-
-        <h3>
-          Sistema de usuarios
-        </h3>
-
-        <p>
-          Existen diferentes roles como
-          administrador, moderador,
-          usuario estándar y técnico certificado.
-        </p>
-
-      </div>
-
-      <div class="project-card">
-
-        <div class="project-icon">
-          <i class="fa-solid fa-circle-question"></i>
-        </div>
-
-        <h3>
-          Publicación de problemas
-        </h3>
-
-        <p>
-          Los usuarios pueden crear posts
-          describiendo averías o problemas
-          técnicos específicos.
-        </p>
-
-      </div>
-
-      <div class="project-card">
-
-        <div class="project-icon">
-          <i class="fa-solid fa-lightbulb"></i>
-        </div>
-
-        <h3>
-          Soluciones colaborativas
-        </h3>
-
-        <p>
-          La comunidad puede responder
-          con soluciones, consejos,
-          imágenes y recomendaciones.
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- ========================= -->
-  <!-- TECNOLOGÍAS -->
-  <!-- ========================= -->
-
-  <section class="skills" id="tecnologias">
-
-    <h2 class="section-title">
-      Tecnologías utilizadas
-    </h2>
-
-    <div class="skills-container">
-
-      <!-- JAVA -->
-
-      <div class="skill">
-
-        <div class="skill-info">
-
-          <span>Java</span>
-          <span>Backend</span>
-
-        </div>
-
-        <div class="progress">
-
-          <div class="progress-bar java"></div>
-
-        </div>
-
-      </div>
-
-      <!-- MYSQL -->
-
-      <div class="skill">
-
-        <div class="skill-info">
-
-          <span>MySQL</span>
-          <span>Base de datos</span>
-
-        </div>
-
-        <div class="progress">
-
-          <div class="progress-bar sql"></div>
-
-        </div>
-
-      </div>
-
-      <!-- WORKBENCH -->
-
-      <div class="skill">
-
-        <div class="skill-info">
-
-          <span>MySQL Workbench</span>
-          <span>Modelado</span>
-
-        </div>
-
-        <div class="progress">
-
-          <div class="progress-bar al"></div>
-
-        </div>
-
-      </div>
-
-      <!-- HTML CSS -->
-
-      <div class="skill">
-
-        <div class="skill-info">
-
-          <span>HTML / CSS</span>
-          <span>Frontend</span>
-
-        </div>
-
-        <div class="progress">
-
-          <div class="progress-bar web"></div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- ========================= -->
-  <!-- BASE DE DATOS -->
-  <!-- ========================= -->
-
-  <section class="stats">
-
-    <h2 class="section-title">
-      Estructura de la Base de Datos
-    </h2>
-
-    <div class="stats-container">
-
-      <div class="stat-box">
-
-        <h3>Usuario</h3>
-
-        <p>
-          Información de los miembros
-          de la plataforma.
-        </p>
-
-      </div>
-
-      <div class="stat-box">
-
-        <h3>Post</h3>
-
-        <p>
-          Problemas y publicaciones
-          creadas por los usuarios.
-        </p>
-
-      </div>
-
-      <div class="stat-box">
-
-        <h3>Solución</h3>
-
-        <p>
-          Respuestas y guías
-          propuestas por la comunidad.
-        </p>
-
-      </div>
-
-      <div class="stat-box">
-
-        <h3>Categoría</h3>
-
-        <p>
-          Organización de contenido
-          por temática.
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- ========================= -->
-  <!-- GITHUB -->
-  <!-- ========================= -->
-
-  <section class="contact" id="github">
-
-    <h2 class="section-title">
-      Enlaces
-    </h2>
-
-    <div class="contact-container">
-
-      <a
-        href="https://github.com/HectorPozo2007"
-        target="_blank"
-      >
-        <i class="fa-brands fa-github"></i>
-        Perfil GitHub
-      </a>
-
-      <a
-        href="https://github.com/HectorPozo2007/Proyecto1-DAM"
-        target="_blank"
-      >
-        <i class="fa-solid fa-code"></i>
-        Repositorio
-      </a>
-
-      <a
-        href="https://hectorpozo2007.github.io"
-        target="_blank"
-      >
-        <i class="fa-solid fa-globe"></i>
-        Portfolio
-      </a>
-
-    </div>
-
-  </section>
-
-  <!-- ========================= -->
-  <!-- FOOTER -->
-  <!-- ========================= -->
-
-  <footer>
+    <h2>Una red social para reparar, aprender y compartir</h2>
 
     <p>
-      © 2025 · TinkerNet · Proyecto DAM · Héctor Pozo Fernández
+      TinkerNet es una plataforma creada para fomentar la reparación de objetos,
+      el aprendizaje colaborativo y la economía circular.
     </p>
 
-  </footer>
+    <div class="buttons">
+      <a href="#que-es">Qué es</a>
+      <a href="#como-funciona" class="outline">Cómo funciona</a>
+    </div>
 
-  <script src="script.js"></script>
+  </div>
+
+</header>
+
+<!-- ================= QUE ES ================= -->
+
+<section id="que-es" class="section">
+
+  <h2>¿Qué es TinkerNet?</h2>
+
+  <p class="center-text">
+    TinkerNet es una red social donde los usuarios pueden publicar problemas,
+    compartir soluciones y aprender a reparar dispositivos electrónicos,
+    electrodomésticos, vehículos y mucho más.
+  </p>
+
+  <div class="grid">
+
+    <div class="card">
+      <i class="fa-solid fa-screwdriver-wrench"></i>
+      <h3>Reparaciones</h3>
+      <p>Guías paso a paso creadas por la comunidad.</p>
+    </div>
+
+    <div class="card">
+      <i class="fa-solid fa-users"></i>
+      <h3>Comunidad</h3>
+      <p>Usuarios que ayudan a otros con problemas técnicos.</p>
+    </div>
+
+    <div class="card">
+      <i class="fa-solid fa-recycle"></i>
+      <h3>Sostenibilidad</h3>
+      <p>Reduce residuos y fomenta la reutilización.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= COMO FUNCIONA ================= -->
+
+<section id="como-funciona" class="section dark">
+
+  <h2>¿Cómo funciona?</h2>
+
+  <div class="steps">
+
+    <div class="step">
+      <span>1</span>
+      <h3>Registro de usuario</h3>
+      <p>Cada usuario tiene un perfil con roles (usuario, técnico, admin).</p>
+    </div>
+
+    <div class="step">
+      <span>2</span>
+      <h3>Publicar problemas</h3>
+      <p>Se crean posts explicando fallos o averías.</p>
+    </div>
+
+    <div class="step">
+      <span>3</span>
+      <h3>Soluciones colaborativas</h3>
+      <p>Otros usuarios aportan soluciones y comentarios.</p>
+    </div>
+
+    <div class="step">
+      <span>4</span>
+      <h3>Organización por categorías</h3>
+      <p>Todo está clasificado: electrónica, hogar, automoción…</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= TECNOLOGIAS ================= -->
+
+<section class="section">
+
+  <h2>Tecnologías utilizadas</h2>
+
+  <div class="tech">
+
+    <span>Java</span>
+    <span>MySQL</span>
+    <span>Workbench</span>
+    <span>POO</span>
+    <span>UML</span>
+    <span>GitHub</span>
+
+  </div>
+
+</section>
+
+<!-- ================= BASE DE DATOS ================= -->
+
+<section class="section dark">
+
+  <h2>Base de datos</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Usuario</h3>
+      <p>Gestión de cuentas y roles.</p>
+    </div>
+
+    <div class="card">
+      <h3>Post_problema</h3>
+      <p>Problemas publicados por usuarios.</p>
+    </div>
+
+    <div class="card">
+      <h3>Solución</h3>
+      <p>Respuestas a los problemas.</p>
+    </div>
+
+    <div class="card">
+      <h3>Categoría</h3>
+      <p>Clasificación del contenido.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= CTA ================= -->
+
+<section class="section cta">
+
+  <h2>Ver el proyecto en GitHub</h2>
+
+  <p>Puedes revisar el código completo del proyecto aquí:</p>
+
+  <a class="big-button" href="https://github.com/HectorPozo2007/Proyecto1-DAM" target="_blank">
+    <i class="fa-brands fa-github"></i> Repositorio del proyecto
+  </a>
+
+  <a class="small-link" href="https://hectorpozo2007.github.io" target="_blank">
+    Ver mi portfolio personal
+  </a>
+
+</section>
+
+<footer>
+  <p>© 2026 · TinkerNet · Proyecto DAM</p>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>

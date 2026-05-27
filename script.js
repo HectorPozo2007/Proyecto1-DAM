@@ -1,13 +1,15 @@
-const menuBtn = document.querySelector(".menu-btn");
-const navLinks = document.querySelector(".nav-links");
+// Scroll suave extra (opcional pero mejora UX)
 
-menuBtn.addEventListener("click", () => {
-  navLinks.classList.toggle("active");
-});
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function(e){
+    e.preventDefault();
 
-// Cerrar menú al hacer click en un enlace (mejora UX)
-document.querySelectorAll(".nav-links a").forEach(link => {
-  link.addEventListener("click", () => {
-    navLinks.classList.remove("active");
+    const target = document.querySelector(this.getAttribute("href"));
+
+    if(target){
+      target.scrollIntoView({
+        behavior:"smooth"
+      });
+    }
   });
 });
